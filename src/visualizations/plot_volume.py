@@ -5,7 +5,6 @@ import os
 from src.database import engine 
 
 def get_data_from_db():
-    """Busca dados e calcula a tonelagem diretamente no MySQL"""
     query = """
     SELECT 
         u.nome, 
